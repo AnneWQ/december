@@ -1,0 +1,21 @@
+{
+  "name": "december",
+  "homepage": "https://github.com/AnneWQ/december",
+  "authors": [
+    "annewq <annewq@outlook.com>"
+  ],
+  "description": "front end template",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
