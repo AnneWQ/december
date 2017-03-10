@@ -1,0 +1,50 @@
+
+body{
+    /*处理scroll不能平滑*/
+    -webkit-overflow-scrolling: touch;
+}
+#demo {
+    width: 0;
+    height: 0;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+}
+.container{
+    overflow: hidden;
+    background: #00b3ee;
+}
+.l{
+    float: left;
+    background: darkseagreen;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+.r{
+    float: left;
+    background: indianred;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
+
+/*disable yellow*/
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(250, 255, 189); /* #FAFFBD; */
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+.a{
+    height: auto;
+    background: #3c3c3c;
+}
+.b{
+    height: 100px;
+    background: gold;
+}
+.c{
+    /*margin-bottom: -9999px;*/
+    /*padding-bottom: 9999px;*/
+    background: greenyellow;
+}
